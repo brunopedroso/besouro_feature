@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="besouro_feature"
+      label="Besouro_feature"
+      version="1.0.1"
+      plugin="besouro_plugin">
+
+   <description url="http://no-optional-url">
+      Besouro is a plugin that analyses programmers behavious regardin TDD
+   </description>
+
+   <copyright url="This software is distributed following apache license.">
+      This software is distributed following apache license.
+   </copyright>
+
+   <license url="This software is distributed following apache license.">
+      This software is distributed following apache license.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.junit" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.debug.core" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.navigator" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.ui" version="3.6.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="besouro_plugin"
+         download-size="0"
+         install-size="0"
+         version="1.0.1"
+         unpack="false"/>
+
+</feature>
