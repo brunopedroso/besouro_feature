@@ -6,7 +6,8 @@
       plugin="besouro_plugin">
 
    <description url="http://no-optional-url">
-      Besouro is a plugin that analyses programmers behavious regardin TDD
+      Besouro is a plugin that analyses programmers behavious regarding
+TDD. Please visit https://github.com/brunopedroso/besouro for more details.
    </description>
 
    <copyright url="This software is distributed following apache license.">
@@ -35,7 +36,7 @@
          id="besouro_plugin"
          download-size="0"
          install-size="0"
-         version="1.0.1"
+         version="0.0.0"
          unpack="false"/>
 
 </feature>
