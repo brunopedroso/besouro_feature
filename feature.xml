@@ -2,7 +2,7 @@
 <feature
       id="besouro_feature"
       label="Besouro_feature"
-      version="1.0.1"
+      version="1.0.2"
       plugin="besouro_plugin">
 
    <description url="http://no-optional-url">
